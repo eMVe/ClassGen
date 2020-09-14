@@ -1,7 +1,5 @@
-// ClassGen.cpp : Defines the entry point for the console application.
+// ClassGen.cpp (c) Michal Vanka
 //
-
-// TODO: add namespace option (2nd argument)
 
 #include "stdafx.h"
 
