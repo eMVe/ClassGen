@@ -457,7 +457,7 @@ void generateDialog(int argc, char* argv[])
 				<< endl
 				<< DIVIDER << endl
 
-			<< "LRESULT DlgMain::OnTrayNotify(WPARAM wParam, LPARAM lParam)" << endl
+			<< "LRESULT " << className << "::OnTrayNotify(WPARAM wParam, LPARAM lParam)" << endl
 			<< "{" << endl
 				<< "\tUINT uID;" << endl
 				<< "\tUINT uMsg;" << endl
@@ -563,14 +563,14 @@ void generateDialog(int argc, char* argv[])
 			<< "}" << endl
 			<< endl
 			<< DIVIDER << endl
-			<< "void DlgMain::OnTraymenuConfig()" << endl
+			<< "void " << className << "::OnTraymenuConfig()" << endl
 			<< "{" << endl
 				<< "\tTrayHide();" << endl
 				<< "\tShowWindow(SW_RESTORE);" << endl
 			<< "}" << endl
 			<< endl
 			<< DIVIDER << endl
-			<< "void DlgMain::OnTraymenuExit()" << endl
+			<< "void " << className << "::OnTraymenuExit()" << endl
 			<< "{" << endl
 				<< "\tPostMessage(WM_SYSCOMMAND, SC_CLOSE, 0);" << endl
 			<< "}" << endl
