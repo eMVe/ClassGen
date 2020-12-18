@@ -2,6 +2,7 @@ ClassGen
 --------
 
 Simple class generator for Visual C++.
+Generate normal, threaded, dialog or dialog with trayicon classes easily.
 
 Usage
 -----
